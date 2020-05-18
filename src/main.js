@@ -8,7 +8,7 @@ import 'vfc/dist/vfc.css'
 import App from './App.vue'
 
 
-Vue.use(BootstrapVue)
+Vue.use(BootstrapVue) //Используем Bootstrap для некоторых стилей
 Vue.use(VFC) // Используем Vue Form Component для создания форм
 Vue.use(Vuex); // Используем Vuex для хранения состояния формы
 

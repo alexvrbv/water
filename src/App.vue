@@ -12,27 +12,6 @@
 		name: 'app',
 		components: {
 		OrderForm
-		},
-		data () {
-		return {
-			posts: [],
-			endpoint: 'https://jsonplaceholder.typicode.com/posts/',
-		}
-		},
-		created() {
-		this.getAllPosts();
-		},
-		methods: {
-		getAllPosts() {
-			axios.get(this.endpoint)
-			.then(response => {
-				this.posts = response.data;
-			})
-			.catch(error => {
-				console.log('-----error-------');
-				console.log(error);
-			})
-		}
 		}
 	}
 </script>

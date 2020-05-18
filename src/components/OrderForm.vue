@@ -105,7 +105,7 @@
 				var formDataJSON = JSON.stringify(formData);
 				// Отправляем данные в API
 				axios({
-					url: 'http://alexvrbv.beget.tech/alp/api/form/create.php',
+					url: 'api/form/create.php',
 					method: 'post',
 					data: formData
 				})
